@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>Frontend Mentor | Four card feature section</title>
+  </head>
+  <body
+    class="min-h-screen bg-very-light-gray px-7 py-20 text-center font-default-ff"
+  >
+    <div class="mx-auto max-w-[80rem]">
+      <main>
+        <div class="mx-auto max-w-[32rem]">
+          <h1 class="text-2xl leading-[2.2rem] lg:text-3xl">
+            <p class="font-[200]">Reliable, efficient delivery</p>
+            <p class="font-bold text-very-dark-blue">Powered by Technology</p>
+          </h1>
+
+          <p class="mb-8 mt-4 font-[400] text-grayish-blue">
+            Our Artificial Intelligence powered tools use millions of project
+            data points to ensure that your project is successful
+          </p>
+        </div>
+
+        <ul
+          class="mx-auto grid max-w-[20rem] gap-4 lg:mt-16 lg:max-w-[70rem] lg:grid-cols-3 lg:grid-rows-2 lg:items-center lg:gap-x-6 lg:gap-y-8"
+        >
+          <li
+            class="row-span-2 grid grid-rows-[1fr,1.3fr] rounded-md border-t-4 border-teal-200 bg-white px-5 py-4 text-left shadow-xl"
+          >
+            <div class="ml-2">
+              <h2 class="text-xl font-bold leading-10 text-very-dark-blue">
+                Supervisor
+              </h2>
+              <p class="text-sm leading-[1.5rem] text-grayish-blue">
+                Monitors activity to identify project roadblocks
+              </p>
+            </div>
+            <img
+              class="self-end justify-self-end"
+              src="./images/icon-supervisor.svg"
+              alt=""
+            />
+          </li>
+          <li
+            class="grid grid-rows-[1fr,1.3fr] rounded-md border-t-4 border-red-tail bg-white px-4 py-4 text-left shadow-xl"
+          >
+            <div class="ml-2">
+              <h2 class="text-xl font-bold leading-10 text-very-dark-blue">
+                Team Builder
+              </h2>
+              <p class="text-sm leading-[1.5rem] text-grayish-blue">
+                Scans our talent network to create the optimal team for your
+                project
+              </p>
+            </div>
+            <img
+              class="self-end justify-self-end"
+              src="./images/icon-team-builder.svg"
+              alt=""
+            />
+          </li>
+          <li
+            class="grid grid-rows-[1fr,1.3fr] rounded-md border-t-4 border-orange-tail bg-white px-4 py-4 text-left shadow-xl lg:col-start-2 lg:row-start-2"
+          >
+            <div class="ml-2">
+              <h2 class="text-xl font-bold leading-10 text-very-dark-blue">
+                Karma
+              </h2>
+              <p class="text-sm leading-[1.5rem] text-grayish-blue">
+                Regularly evaluates our talent to ensure quality
+              </p>
+            </div>
+            <img
+              class="self-end justify-self-end"
+              src="./images/icon-karma.svg"
+              alt=""
+            />
+          </li>
+          <li
+            class="grid grid-rows-[1fr,1.3fr] rounded-lg border-t-4 border-blue-tail bg-white px-4 py-4 text-left shadow-xl lg:row-span-2"
+          >
+            <div class="ml-2">
+              <h2 class="text-xl font-bold leading-10 text-very-dark-blue">
+                Calculator
+              </h2>
+              <p class="text-sm leading-[1.5rem] text-grayish-blue">
+                Uses data from past projects to provide better delivery
+                estimates
+              </p>
+            </div>
+            <img
+              class="self-end justify-self-end"
+              src="./images/icon-calculator.svg"
+              alt=""
+            />
+          </li>
+        </ul>
+      </main>
+    </div>
+  </body>
+</html>
