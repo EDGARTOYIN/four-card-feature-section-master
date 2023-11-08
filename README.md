@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [REPO](https://github.com/EDGARTOYIN/social-proof-section-master-renew)
-- Live Site URL: [SITE](https://edgartoyin.github.io/social-proof-section-master-renew/)
+- Solution URL: [REPO](https://github.com/EDGARTOYIN/four-card-feature-section-master)
+- Live Site URL: [SITE](https://edgartoyin.github.io/four-card-feature-section-master/)
 
 ## My process
 
